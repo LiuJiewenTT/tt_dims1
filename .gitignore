@@ -1,0 +1,6 @@
+keep_local
+# /build/
+/packs/
+/src/gen_dim_types/*
+!/src/gen_dim_types/gen.py
+!/src/gen_dim_types/note.txt
