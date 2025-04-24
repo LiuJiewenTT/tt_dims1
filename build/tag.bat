@@ -10,8 +10,8 @@ echo cwd: %CD%
 set PROJECT_HOME=..\
 set PACK_INPUT_DIR=%PROJECT_HOME%build\dest\
 set PACK_OUTPUT_DIR=%PROJECT_HOME%packs\
-set pack_file=tt_dims1_datapack.zip
-set pack_filename_noext=tt_dims1_datapack
+set pack_file=tt_dims2_datapack.zip
+set pack_filename_noext=tt_dims2_datapack
 set pack_file_ext=.zip
 set tag=%2
 
