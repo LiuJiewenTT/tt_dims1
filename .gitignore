@@ -1,6 +1,6 @@
 keep_local
 # /build/
 /packs/
-/src/gen_dim_types/*
-!/src/gen_dim_types/gen.py
-!/src/gen_dim_types/note.txt
+/src/gen_*/*
+!/src/gen_*/gen.py
+!/src/gen_*/note.txt
