@@ -62,6 +62,11 @@ if not exist "%PACK_OUTPUT_DIR%%pack_output_file%" (
 
 @rem --- main ---
 
+if not exist "%PACK_OUTPUT_DIR%" (
+    echo Create PACK_OUTPUT_DIR
+    mkdir "%PACK_OUTPUT_DIR%"
+)
+
 copy /V "%PACK_INPUT_DIR%%pack_file%" "%PACK_OUTPUT_DIR%%pack_output_file%"
 if ERRORLEVEL 1 (
     exit /b 6
