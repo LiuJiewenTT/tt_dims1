@@ -94,7 +94,7 @@ defaults = {
 for dim, base in dimension_bases.items():
     base_settings = defaults[base].copy()
     base_settings["height"] = 1024
-    base_settings["logical_height"] = 1024
+    base_settings["logical_height"] = 959
     if base_settings.get("fixed_time") is None:
         base_settings.pop("fixed_time", None)
     with open(os.path.join(dimtype_dir, f"{dim}.json"), "w") as f:
