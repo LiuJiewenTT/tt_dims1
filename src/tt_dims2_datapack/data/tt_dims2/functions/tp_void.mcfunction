@@ -1,1 +1,1 @@
-tp @p 0 70 0 tt_dims2:void
+execute in tt_dims2:void run tp @p ~ ~ ~

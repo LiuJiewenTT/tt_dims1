@@ -1,1 +1,1 @@
-tp @p 0 70 0 tt_dims2:ovw
+execute in tt_dims2:ovw run tp @p ~ ~ ~

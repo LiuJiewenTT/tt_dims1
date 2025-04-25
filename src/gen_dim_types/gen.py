@@ -27,7 +27,7 @@ defaults = {
         "bed_works": True,
         "respawn_anchor_works": False,
         "has_raids": True,
-        "infiniburn": "minecraft:infiniburn_overworld",
+        "infiniburn": "#minecraft:infiniburn_overworld",
         "effects": "minecraft:overworld",
         "min_y": -64,
         "monster_spawn_light_level": {
