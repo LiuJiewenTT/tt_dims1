@@ -9,6 +9,9 @@ os.makedirs(functions_path, exist_ok=True)
 # 为每个维度创建单独的传送函数
 tp_coords = "~ ~ ~"
 dimension_keys = ["ovw", "ovw_alignflat", "void"]
+func_path = os.path.join(functions_path, f"load.mcfunction")
+with open(func_path, "w") as f:
+        f.write('tellraw @a {"text":"[tt_dims2数据包] 已成功加载！","color":"green"}')
 
 for key in dimension_keys:
     func_path = os.path.join(functions_path, f"tp_{key}.mcfunction")
