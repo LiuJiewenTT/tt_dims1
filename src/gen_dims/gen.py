@@ -13,6 +13,10 @@ dimensions = {
         "type": "minecraft:overworld",
         "generator": {
             "type": "minecraft:noise",
+            "biome_source": {
+                "type": "minecraft:multi_noise",
+                "preset": "minecraft:overworld"
+            },
             "settings": "minecraft:overworld"
         }
     },
